@@ -1,0 +1,33 @@
+body {
+  background-color: #303333;
+  text-align: center;
+}
+body p{
+  color: 	#71de95;
+  font-size: 2em;
+  font-family:fantasy;
+  background-color: #292a2a;
+}
+h1 {
+  color: #f1554d;
+  font-family:cursive;
+  font-size:5em;
+}
+li a {
+  margin: 30px;
+  border-style: double;
+  border-color: #f1554d;
+  text-decoration: none;
+  color: #119a97;
+}
+nav ul li {
+  font-family:sans-serif;
+  display: inline;
+  font-size:2em;
+  text-align: center;
+}
+
+div {
+
+  background-color: #292a2a;
+}
