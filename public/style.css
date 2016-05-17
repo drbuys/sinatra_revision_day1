@@ -5,29 +5,72 @@ body {
 body p{
   color: 	#71de95;
   font-size: 2em;
-  font-family:fantasy;
-  background-color: #292a2a;
+  font-family: fantasy;
+  /*background-color: #292a2a;*/
 }
 h1 {
   color: #f1554d;
-  font-family:cursive;
+  font-family: cursive;
   font-size:5em;
+  background-color: #119a97;
 }
 li a {
   margin: 30px;
   border-style: double;
+  border-radius: 20%;
   border-color: #f1554d;
   text-decoration: none;
-  color: #119a97;
+  color: #71de95;
+}
+li a:hover {
+  color: #f1554d;
+
 }
 nav ul li {
   font-family:sans-serif;
   display: inline;
   font-size:2em;
   text-align: center;
+
 }
 
 div {
 
   background-color: #292a2a;
+  margin:auto;
+}
+
+.para1 {
+  background-color: #303333;
+  border-bottom-style: ridge;
+  border-color: #119a97;
+  border-radius: 100%;
+  width: 50%;
+  float:left;
+
+
+
+}
+
+.para2 {
+
+    background-color: #303333;
+    border-bottom-style: ridge;
+    border-radius: 100%;
+    border-color: #119a97;
+    width: 50%;
+    float: right;
+}
+
+.camel {
+  background-color: #303333;
+  border-bottom-style: ridge;
+  border-radius: 100%;
+  border-color: #119a97;
+  width: 50%;
+}
+
+div p:hover {
+  color: #f1554d;
+
 }

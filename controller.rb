@@ -40,6 +40,10 @@ get '/camelcase/:word' do
 
   dave = params[:word].camelize
 
+# get '/camelcase/zak_buys' do
+#
+#   dave = 'zak_buys'.camelize
+
   @camelcase = dave
 
   erb :camelcase
